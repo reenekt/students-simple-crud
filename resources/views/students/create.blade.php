@@ -25,7 +25,7 @@
                         </div>
                         <div class="form-group">
                             <label for="third_name">
-                                Имя
+                                Отчество
                             </label>
                             <input class="form-control" name="third_name" type="text">
                         </div>

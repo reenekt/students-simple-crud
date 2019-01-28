@@ -22,3 +22,5 @@ Auth::routes();
 Route::get('/home', 'HomeController@index')->name('home');
 
 Route::resource('students', 'StudentController');
+
+Route::post('students/search', 'StudentController@search')->name('students.search');

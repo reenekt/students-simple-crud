@@ -97,4 +97,19 @@ class StudentController extends Controller
         $student->delete();
         return redirect()->route('students.index');
     }
+
+    /**
+     * Список студентов отфильтрованных по параметрам поиска
+     * @param Request $request
+     */
+    public function search(Request $request) {
+        $attrinute = $request->input('attributeName');
+        $value = $request->input('searchInput');
+
+        $students = Student::where($attrinute, '=', $value)->get();
+
+        return view('students.index', [
+            'students' => $students
+        ]);
+    }
 }

@@ -26,7 +26,7 @@
                         </div>
                         <div class="form-group">
                             <label for="third_name">
-                                Имя
+                                Отчество
                             </label>
                             <input value="{{ $student->third_name }}" class="form-control" name="third_name" type="text">
                         </div>
