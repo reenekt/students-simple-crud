@@ -15,6 +15,13 @@
                     @endif
 
                     You are logged in!
+
+                    <div class="new-line-for-git-test">
+                        <h2>Test header</h2>
+
+                        <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab, eveniet facilis modi necessitatibus tenetur totam?</div>
+
+                    </div>
                 </div>
             </div>
         </div>
